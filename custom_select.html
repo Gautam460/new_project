@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multiple Tag Selection with Dropdown</title>
+<link rel="stylesheet" href="multi-select-tag.css">
+<style>
+    /* Additional styles can be added here */
+</style>
+</head>
+<body>
+
+<!-- Your HTML content here -->
+<select name="countries[]" id="countries" multiple>
+    <option value="1" selected>Afghanistan</option>
+    <option value="2">Australia</option>
+    <option value="3">Germany</option>
+    <option value="4">Canada</option>
+    <option value="5">Russia</option>
+</select>
+
+<script src="multi-select-tag.js"></script>
+<script>
+    new MultiSelectTag('countries')  // id
+</script>
+</body>
+</html>
